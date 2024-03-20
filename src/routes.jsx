@@ -25,6 +25,10 @@ const routes = [
         path: '/',
         element: <MainLayout><CustomTool /></MainLayout>
     },
+    {
+        path: '/generate',
+        element: <MainLayout><CustomTool action="generate" /></MainLayout>
+    },
     ...all_subdomain_routes,
     ...extra_auth_routes,
     default_not_found_route

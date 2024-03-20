@@ -1,5 +1,5 @@
 {
-  "name": "blust-ai-custom-tool-template",
+  "name": "blust-ai-imaginator",
   "private": true,
   "author": {
     "name": "Eugene Lobachev"
@@ -15,24 +15,28 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.13",
+    "@mui/material": "^5.15.14",
+    "@mui/x-data-grid": "^6.19.8",
     "blustai-react-core": "https://cdn.blust.ai/blustai-react-core.tar.gz?v=0.0.2",
+    "blustai-react-datagrid": "https://cdn.blust.ai/blustai-react-datagrid.tar.gz?v=0.0.2",
     "blustai-react-router": "https://cdn.blust.ai/blustai-react-router.tar.gz?v=0.0.2",
     "blustai-react-ui": "https://cdn.blust.ai/blustai-react-ui.tar.gz?v=0.0.2",
+    "formik": "^2.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-error-boundary": "^4.0.13",
     "react-helmet-async": "^2.0.4",
-    "react-hot-toast": "^2.4.1"
+    "react-hot-toast": "^2.4.1",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.65",
+    "@types/react": "^18.2.67",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "vite": "^5.1.6"
+    "vite": "^5.2.2"
   }
 }
