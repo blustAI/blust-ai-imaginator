@@ -43,8 +43,6 @@ const MainLayout = (props) => {
             sidebarInitialState: threadsOpened, //TODO for some reason initial value doesn't work
             drawerVariant: drawerVariant
         },
-        studiopath: import.meta.env.VITE_MAINPATH+"/",
-        studio_url: window.location.protocol + "//" + window.location.host + import.meta.env.VITE_MAINPATH,
     }
 
     return <Box sx={{ display: 'flex', flexDirection: 'column' }}  {...limitHeight && { className: "vh100withFix" }} >
