@@ -126,7 +126,7 @@ const Generator = (props) => {
         if (historyEndReached) return;
         if (historyLoading) return;
         setHistoryLoading(true);
-        let _history = await service.getHistory({ filters: { role: 'assistant', 'images.0': { '$exists': true } }, limit: history_load_size, skip: (history?.length || 0) });
+        let _history = await service.getHistory(null,{ filters: { role: 'assistant', 'images.0': { '$exists': true } }, limit: history_load_size, skip: (history?.length || 0) });
         if (_history?.length < history_load_size) setHistoryEndReached(true);
         setHistory([...history, ..._history]);
         setHistoryLoading(false);
